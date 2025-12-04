@@ -30,3 +30,8 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     alert("Network error. Please try again later.");
   }
 });
+
+function toggleMenu() {
+  const nav = document.getElementById("navbar");
+  nav.classList.toggle("active");
+}
